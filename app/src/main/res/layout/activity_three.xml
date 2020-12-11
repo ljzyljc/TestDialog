@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <Button
+        android:id="@+id/four_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Main Thread show"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:id="@+id/show_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thread Show"
+        tools:ignore="MissingConstraints" />
+
+
+    <Button
+        android:id="@+id/hide_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thread Hide"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="test task"
+        tools:ignore="MissingConstraints" />
+</LinearLayout>
