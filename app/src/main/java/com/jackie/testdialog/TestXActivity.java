@@ -30,6 +30,8 @@ public class TestXActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         Log.i(TAG, "onCreate: ");
         String appName = getResources().getString(R.string.app_name);
+
+        Log.i(TAG, "onCreate: =======jackie123=====    "+AlgorithmUtils.INSTANCE.hmacSHA256("jackie"));
         if (savedInstanceState != null){
             Log.i(TAG, "onCreate: =====not null========");
         } else {

@@ -38,13 +38,16 @@ public class TestDActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_test_a);
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                Log.i(TAG, "run: =====================");
-            }
-        },10000);
-        haoShi();
+
+
+
+//        new Handler().postDelayed(new Runnable() {
+//            @Override
+//            public void run() {
+//                Log.i(TAG, "run: =====================");
+//            }
+//        },10000);
+//        haoShi();
         
 //        Looper.getMainLooper().getQueue().addIdleHandler(new MessageQueue.IdleHandler() {
 //            @Override
